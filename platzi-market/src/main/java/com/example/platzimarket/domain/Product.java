@@ -1,7 +1,7 @@
 package com.example.platzimarket.domain;
 
 public class Product {
-    private int idProducto;
+    private int productId;
     private String name;
     private int categoryId;
     private double price;
@@ -9,12 +9,12 @@ public class Product {
     private boolean active;
     private Category category;
 
-    public int getIdProducto() {
-        return idProducto;
+    public int getProductId() {
+        return productId;
     }
 
-    public void setIdProducto(int idProducto) {
-        this.idProducto = idProducto;
+    public void setProductId(int productId) {
+        this.productId = productId;
     }
 
     public String getName() {
