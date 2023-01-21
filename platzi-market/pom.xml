@@ -11,12 +11,6 @@
 	<groupId>com.example</groupId>
 	<artifactId>platzi-market</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>platzi-market</name>
-	<description>Proyecyo para crear una API con Spring</description>
-	<properties>
-		<java.version>19</java.version>
-		<org.mapstruct.version>1.5.3.Final</org.mapstruct.version>
-	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -44,7 +38,25 @@
 			<artifactId>mapstruct</artifactId>
 			<version>${org.mapstruct.version}</version>
 		</dependency>
+
+		<!--<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jdbc</artifactId>
+			<version>3.0.1</version>
+		</dependency>-->
+
+		<!--<dependency>
+			<groupId>org.hibernate.orm</groupId>
+			<artifactId>hibernate-core</artifactId>
+			<version>6.1.6.Final</version>
+		</dependency>-->
 	</dependencies>
+	<name>platzi-market</name>
+	<description>Proyecyo para crear una API con Spring</description>
+	<properties>
+		<java.version>19</java.version>
+		<org.mapstruct.version>1.5.3.Final</org.mapstruct.version>
+	</properties>
 
 	<build>
 		<plugins>
